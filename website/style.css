@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen';
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c; /* Dark background */
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    flex-wrap: wrap; /* Allow wrapping for extra links */
+}
+
+/* Logo */
+.logo-container {
+    border: 2px solid #000; /* Adjust border size and color as needed */
+    display: inline-block; /* Ensures the border wraps tightly around the image */
+}
+
+.logo {
+    width: 120px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+}
+/* Navigation Links */
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li {
+    margin: 0 15px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-links ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Extra Links Section */
+.extra-links {
+    display: flex;
+    align-items: center;
+    margin-top: 1px; /* Add some space between the layers */
+    flex-basis: 100%; /* Ensure full width for wrapping */
+    justify-content: right; /* Align to the right */
+}
+
+.extra-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.extra-links a.button {
+    background-color: #d6a015;
+    padding: 10px 20px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.extra-links a.button:hover {
+    background-color: #b38e0e;
+}
